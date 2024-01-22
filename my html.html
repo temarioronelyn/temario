@@ -1,0 +1,427 @@
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {background-image: url(25.jpg);} 
+
+
+  {font-family: "Lato", sans-serif;
+background-size: cover;
+background-image: url(7.jpg);
+background-repeat: no-repeat;
+}
+
+
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 100px;
+  text-align: center;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+</style>
+</head>
+<body>
+
+   <div class="header">
+
+   <h2><center>TEMAR'S WEBSITE</center></h2>
+
+
+   <h2><center>motivate your self don't listen to those people who only see your mistakes.</center></h2>
+   
+
+   <button class="tablink" onclick="openPage('Home', this, 'black')">HISTORY</button>
+
+
+<button class="tablink" onclick="openPage('News', this, 'brown')" id="defaultOpen">ABOUT ME</button>
+
+
+<button class="tablink" onclick="openPage('Contact', this, 'gray')">HTML</button>
+
+
+<button class="tablink" onclick="openPage('About', this, 'violet')">PROGRAMMING</button>
+
+
+<button class="tablink" onclick="openPage('Status', this, 'orange')">CONTACT ME</button>
+
+
+
+<div id="Home" class="tabcontent">
+
+  <p>November 14, it's my bertdayyyyyy</p>
+
+  <p>Broken Familyyyyyyyyy</p>
+
+  <p>Fevorite Number
+  14,
+8,
+01</p>
+
+</div>
+
+<div id="News" class="tabcontent">
+
+   <p>Purok-14 Emeldamar Butuan City,Agusan Del Norte</br>
+
+    <p>Mobile: +904526542457254</br>
+
+   <p>Email: ronelyntemario@gmail.com</p>
+
+ <body>
+<font size="5" face="tahoma"><u><b>Personal data</b></u></font></br>
+
+Date of Birth: November 14,2006</br>
+
+Place of birth:Emeldamar butuan City</br>
+
+Civil Status: Single</br>
+
+Citizenship: Filipino </br>
+
+Height:125 cm</br>
+
+weight: 48 lbs</br>
+
+    Father's Name: Ronnie Cabungcal</br>
+
+    Monther's Name: Joeralyn Gubaton Temario</br>
+
+    SSS No. None Application</br>
+
+    TIN #:None Application<font></br>
+
+<p> <font size="5" face="tahoma"><u><b>Educational Background</b></u></font></br>
+
+    <font size="4">Primary: Emeldamar elementary School</br>
+                            Emeldamar Butuan City</br>
+                            2016-2017</br>
+    <font size="4"> Secondary: Butuan City Comprehensive High School</br>
+                             Dulag Butuan City
+                             2020-2021
+    <font size="4">Tertiary: None Applicable</font></br>
+
+<p> <font size="5" face="tahoma"><u><b>Employment History</b></u></font></br>
+
+    <font size="4">Mercadejas Inc.</br>
+
+     Metro Manila</br>
+
+     Maneger</br>
+
+     September 17,2022 to December 5,2023</font>
+</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+
+   <p><font size="5"><a href="personal1.html">Activity1</a></font></p>
+  <p><font size="5"><a href="personal2.html">Activity2</a></font></p>
+  <p><font size="5"><a href="personal3.html">Activity3</a></font></p>
+  </div>
+</div>
+
+
+<div id="About" class="tabcontent">
+<br><br><br>
+ <h1><p><center><front size="5"><a href="activities.html">ACTIVITIES</a></center></p></h1>
+ </div>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 30%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2><center><u>LOGIN SA!</u><center></h2>
+
+<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login<center></button>
+
+<div id="id01" class="modal">
+  
+  <form id="Myform" class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="grace.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div  class="container">
+      <label for="uname"><b>Username</b></label>
+
+      <input type="text" placeholder="Enter Username" name="fname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <input type="button" onclick="myFunction()" value="login">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+ <div id="Status" class="tabcontent">
+  <p><center>Facebook: Temario Ron</center></br>
+  <center> Mobile: 09094659896</center></br>
+    <center>Email: ronelyntemario@gmail.com</center></p>
+            
+
+    <br><br><br>
+<center><p><label for="subject">Comment</center></label></p>
+   <textarea id="subject" name="subject" placeholder="Input your message.." style="width:50%" "height:50%"></textarea>
+<br>
+<center><input type="submit" value="Submit"></center>
+
+
+</div>
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+
+  </div>
+
+</body>
+</html>
